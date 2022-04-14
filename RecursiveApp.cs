@@ -57,7 +57,7 @@ namespace FindMaximum
             Console.WriteLine("\nExeption. Size can't be less or equal zero.\nPress Enter to continue.");
             Console.ReadLine();
         }
-        private static void ShowSecondExeption()
+        static void ShowSecondExeption()
         {
             Console.WriteLine("\nExeption. For ease of display, the size is limited. Size cannot be greater than 1000.\nPress Enter to continue.");
             Console.ReadLine();
@@ -86,7 +86,7 @@ namespace FindMaximum
             }
             Console.WriteLine();
         }
-        private static void AskUser()
+        static void AskUser()
         {
             string keyWord = "0";
             string enterWord;
